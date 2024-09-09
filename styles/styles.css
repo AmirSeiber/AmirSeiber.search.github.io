@@ -1,0 +1,103 @@
+#search form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+#google-page {
+  position: absolute;
+  margin-right: 10px;
+  right: 0px;
+}
+#image-search {margin-right: 10px;}
+
+#advanced-search-page {margin-right: 10px;}
+
+#submit input[type="submit"] {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#advanced-search {
+  display: flex;
+  flex-direction: column; 
+  width: 100%; 
+  max-width: 500px; 
+  align-self: left;
+}
+
+
+#group {
+  display: flex;
+  align-items: center; /* Vertically align label and input in the center */
+  margin-bottom: 15px; /* Space between each group */
+}
+
+/* Input field styling */
+#group input[type="text"] {
+  flex: 1; /* Allows the input to take up remaining space */
+  width: 100%; /* Ensures input fills the container width */
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Ensures padding doesn't affect the width */
+  text-align: left; /* Ensures text inside input is left-aligned */
+  margin-left: 10px;
+}
+
+
+#advanced-button {
+  display: flex;
+  justify-content: flex-end; 
+  margin-top: 10px;
+}
+
+
+#advanced-button input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #8ab4f8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  
+}
+
+
+#advanced-button input[type="submit"]:hover {
+  background-color: #acc5ed;
+}
+
+
+#other-pages {
+  position: fixed;
+  right: 0px;
+}
+
+#search {
+  position: fixed;
+  inset: 0;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  text-align: center;
+  
+}
+
+#input {
+  width: 100%;
+  border-radius: 15px;
+  height: 25px;
+}
+
+#feeling-lucky {
+  padding: 10px;
+  width: 55.5%;
+ 
+}
