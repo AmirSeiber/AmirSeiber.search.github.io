@@ -33,3 +33,12 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+#buttonvpn {
+    background-color: lightgreen;
+
+}
+
+#buttonvpn:hover {
+    background-color: green;
+}
