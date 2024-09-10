@@ -1,1 +1,1 @@
-https://seiberx.github.io
+https://seiberx.github.io/search/
